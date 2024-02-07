@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+
+    <body class="Main-body">
+        <h2 align="center" class="Heading" >Registration Portal</h2>
+        <form method="post">
+            <table border="0" class="Main-table" align="center" >
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="txtname" class="Typing-Box">  </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="txtname"  class="Typing-Box"></td> 
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="Gender" value="M">Male
+                    <input type="radio" name="Gender" value="F" class="Radio-F">Female</td>  
+                </tr>
+                <tr>
+                    <td>Martial</td>
+                    <td><input type="radio" name="Martial" value="M">Married
+                        <input type="radio" name="Martial" name="U">Unmarried
+                    </td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td>        
+                     <select name="Department" class="Select" >
+                        <option>select</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="BG">BIOLOGY</option>
+                    </select>
+                    </td>
+                    <tr>
+                    <td>Qualification</td>
+                    <td><input type="checkbox" name="Qualification" value="MCA">MCA
+                        <input type="checkbox" name="Qualification" value="MBA">MBA
+                    </td>
+                </tr>
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text" name="txtname"  class="Typing-Box" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"> 
+                        <input type="button" name="btncheck" value="Check Availability" class="Box-availability">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="txtpwd"  class="Typing-Box"></td>
+                </tr>
+                <tr>
+                    <td>Retype</td>
+                    <td><input type="password" name="txtpwd"  class="Typing-Box"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="mail"  class="Typing-Box"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" name="num"  class="Typing-Box"></td>
+                </tr>
+                <tr >
+                    <td >SecurityQn</td>
+                    <td> 
+                        <select name="sec" class="Select" >
+                            <option >select</option>
+                            <option value="food">Favourite food</option>
+                            <option value="colour">Favourite Colour</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Answer</td>
+                    <td><input type="text" name="txtans"  class="Typing-Box"></td>
+                </tr>
+                <tr>
+                    <td>Adress</td>
+                    <td><textarea name="txtadress" rows="2" cols="20" class="Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="btnsubmit" value="submit" class="button2">
+                        <input type="reset" name="btnreset" value="cancel" class="button2">
+                    </td>
+                    
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

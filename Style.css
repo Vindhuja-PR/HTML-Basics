@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
+
+.Main-container{
+    background-color: antiquewhite;
+}
+.Main-Heading{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: blue;
+}
+.table-container{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(175, 175, 235);
+
+}
+.input-feild{
+    margin: 5px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    height: 20px;
+    padding-left: 10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.button{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(100, 100, 223);
+    border: 1px solid rgb(100, 100, 223) ;
+    border-radius: 5px;
+    color: white;
+    transition: 0.9s ease;
+
+}
+
+.button:hover{
+    background-color: rgb(70, 70, 236);
+    border: 1px solid rgb(70, 70, 236) ;
+    color: rgb(190, 199, 182);
+
+}
+.Main-body{
+    background-color: rgb(242, 247, 207);
+}
+.Heading{
+    color:rgb(121, 26, 91);
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.Main-table{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgb(201, 180, 211);
+    width: 350px;
+    
+}
+.Typing-Box{
+    margin: 5px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 15px;
+    height:20px ;
+    font-family: math;
+    font-weight: 600;
+   
+}
+.Address{
+    margin: 5px;
+    width: 211px;
+    height: 55px;
+    border-radius: 6px;
+    border: 0;
+}
+.button2{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(96 16 123);
+    border: 1px solid rgb(96 16 123);
+    border-radius: 5px;
+    color: white;
+    transition: 0.9s ease;
+}
+.button2:hover{
+    background-color: rgb(157, 59, 121);
+    border: 1px solid rgb(157, 59, 121) ;
+    color: rgb(190, 199, 182);
+
+}
+.Box-availability{
+border-radius: 5px;
+background-color: rgb(96 16 123);
+    border: 1px solid rgb(96 16 123);
+    width: 150px;
+    height: 25px;
+    color: white;
+    transition: 0.9s ease;
+    margin-left: 30px;
+
+
+}
+.Box-availability:hover{
+    background-color: rgb(157, 59, 121);
+    border: 1px solid rgb(157, 59, 121) ;
+    color: rgb(190, 199, 182);
+
+}
+.Select{
+    margin-left: 5px;
+    border-radius: 6px;
+    margin: 5px;
+    width: 216px;
+    border: none;
+    padding-left: 15px;
+    height:20px ;
+    font-family: math;
+    font-weight: 600;
+    text-align: center;
+
+}
